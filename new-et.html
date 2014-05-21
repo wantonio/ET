@@ -1,0 +1,1075 @@
+<link rel="stylesheet" href="<%= RootCreativeImagePath %>products/etB/etB.min.css" type="text/css" />
+<link rel="stylesheet" href="http://localhost:800/solarhttp/widget/ssWidgetStyle.css" type="text/css" />
+	<style>
+		#p_sideBar .prod_integration .title img{margin-right: 10px;}
+		#p_sideBar .prod_integration .content p{font-size: 13px;}
+		#p_sideBar .prod_integration .content p a{font: inherit;}
+		#p_sideBar .prod_integration .content .content_title{font-size: 15px;padding-top: 15px;}
+		.p_tools_tabs{
+			overflow:hidden;
+			margin-top:15px;
+		}
+		
+		.p_award_winning{
+			background: url('http://content.solarwinds.com/creative/images/landing_pages/new-product-demo/images/section-bk.png') no-repeat center top;
+		}
+		
+		.p_tool .p_tools_title{
+			margin:10px 0;
+			width: auto;
+			font: 20px 'OpenSansLight',sans-serif;
+			color: #404040;
+			cursor:pointer;
+			position:relative
+		}
+		
+		.p_tool .p_tools_title:hover{
+			color:#f99d1c;
+		}
+		
+		.p_tool .p_tools_title .p_tool_tab_arrow{
+			position:absolute;
+			width:30px;
+			height:30px;
+			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat -5% 15%;
+			top: 0px;
+			right: 10px;
+		}
+		
+		.p_tool .p_tools_title:hover .p_tool_tab_arrow{
+			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat 73% 15%;
+		}
+		
+		.p_tool.expanded .p_tools_title .p_tool_tab_arrow{
+			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat 4% 100%!important;
+		}	
+		
+		.p_tool.expanded .p_tools_title:hover .p_tool_tab_arrow{
+			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat 85% 100%!important;
+		}
+		
+		.p_tool .p_tools_content{
+			display:none;
+		}
+		
+		.p_tool.expanded {
+			border-top:1px solid #fff;
+			background: url('http://content.solarwinds.com/creative/images/landing_pages/new-product-demo/images/section-bk.png') no-repeat center top;
+		}
+		
+		.p_tool{
+			padding:15px 0;
+			border-top:1px solid #ddd;
+		}
+		
+		.p_tools_feature .p_tool_feature_image img{
+			width:180px;
+		}	
+		
+		.p_tools_feature{
+			overflow:hidden;
+			clear:both;
+			padding:10px 0 20px 0;
+		}
+		
+		.p_tools_feature .p_tool_feature_image{
+			width:180px;
+			float:left;
+		}
+		
+		.p_tools_feature .p_tool_feature_image .p_image_large{
+			font-size:12px;
+			color: #359ac0;
+			cursor:pointer;
+			text-align:center;
+			border-bottom: 1px dashed #DDD;
+			width: 135px;
+			display: block;
+			margin: 10px auto 0 auto;
+		}
+		
+		.p_tools_feature .p_tool_feature_image img{	
+			border:1px solid #666;
+		}
+		
+		.p_tools_feature .p_tool_feature_description{
+			width:398px;
+			float:left;
+			padding: 0 0 0 15px;
+		}
+
+		.p_tools_feature .p_tool_feature_description a{
+			font-size:12px;
+		}
+		
+		#p_main_container  .p_tools_feature .p_tool_feature_description p.p_tool_feature_title{
+			padding:0 0 5px 0;
+			font-size:15px;
+			font-weight:bold;
+		}
+	
+		
+	</style>
+<script type="text/javascript" language="javascript" src="<%=RootJsPath%>headjs/head.min.js"></script>
+
+<div id="p_main_container">
+	<!-- Bread Crumb -->
+	<ul class="p_breadcrums p_wrapper">
+		<li>
+			<h4><a href="/">Home</a>&gt;</h4>
+		</li>
+		<li>
+			<h4><a href="/network-management-software.aspx">Network Management</a></h4>
+		</li>
+		<li>
+			<h4>Engineer’s Toolset</h4>
+		</li>
+	</ul>
+	<!-- End of Bread Crumb -->
+
+	<!-- Persistent Block -->
+	<div id="p_persistent_container">
+		<div id="p_persistent-content" class="p_wrapper">
+			<div class="p_persistent-top">
+				<div class="p_persistent-topL">
+					<h1 class="p-title">Engineer’s <span class="orange">Toolset</span><span class="p-sub-title">Over 50 Must-Have Network Tools</span></h1>
+				</div>
+				<div class="p_persistent-topR">
+					<div class="p_price">
+						@(Model.GetStartsAtPriceByCategoryID(***))
+					</div>
+				</div>
+			</div>
+
+			<div class="p_description_container">
+				<div class="p_product_description">
+					<ul class="p_list_container">
+						<li>
+							All the network tools you need in one complete & affordable package
+						</li>
+						<li>
+							Monitoring tools include Real-Time Interface Monitor, SNMP Real-Time Graph, & more
+						</li>
+						<li>
+							Diagnostic tools include Ping Sweep, DNS Analyzer, and Trace Route, & more
+						</li>
+						<li>
+							Network discovery tools include Port Scanner, Switch Port Mapper, Advanced Subnet Calculator, & more
+						</li>
+						<li>
+							Cisco® management tools include Real-time NetFlow Analyzer, Config Downloader, & more
+						</li>
+					</ul>
+					<ul class="p-buttons-container">
+						<li >
+							<div class="bottom">
+
+								<div class="cBtnDownloadContainer">
+									<a class="cBtnDownload" href="http"/register/index.aspx?Program=428&amp;c=70150000000D8FL" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+									<span class="cBtnDescription">Fully Functional For 30 Days</span>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div><!-- p_description -->
+
+				<div class="p-product-screeshots">
+					<div class="thumbWidget">
+						<!--ScreenShots-->
+						<div class="outer">
+							<ul id="slides1" style="height: 170px; width: 302px;">
+
+								<li name="0" class="lnkEnlarge" style="position: absolute; display: list-item;">
+									<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Sm/En/0001_ETS_10-7_Toolset-Launchpad_Sm_EN.jpg" id="ctl00_ContentPlaceHolder1_ScreenShotList_ctl01_ScreenShotImage"  title="">
+								</li>
+
+								<li name="1" class="lnkEnlarge" style="position: absolute; display: none;">
+									<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/sm/En/wss_Sm_EN.png" id="ctl00_ContentPlaceHolder1_ScreenShotList_ctl02_ScreenShotImage" title="">
+								</li>
+
+								<li name="2" class="lnkEnlarge" style="position: absolute; display: none;">
+									<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Sm/En/0044_ETS_10-7_Config-Compare_Sm_EN.jpg" id="ctl00_ContentPlaceHolder1_ScreenShotList_ctl03_ScreenShotImage" title="">
+								</li>
+
+								<li name="3" class="lnkEnlarge" style="position: absolute; display: none;">
+									<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Sm/En/0041_ETS_10-7_Config-Downloader_Sm_EN.jpg" id="ctl00_ContentPlaceHolder1_ScreenShotList_ctl04_ScreenShotImage" title="">
+								</li>
+
+							</ul>
+						</div>
+
+						<!--ThumbNails-->
+
+						<ul id="product1" name="product1" class="thumbs">
+							<li name="0" style="float: left; cursor: pointer; margin: 0;" class="on">
+								<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Th_wid/En/0001_ETS_10-7_Toolset-Launchpad_Th_wid_EN.jpg" id="ctl00_ContentPlaceHolder1_ThumbNailList_ctl01_ThumbNailImage" title="">
+							</li>
+
+							<li name="1" style="float: left; cursor: pointer;" >
+								<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Th_wid/En/wss_Th_wid_EN.png" id="ctl00_ContentPlaceHolder1_ThumbNailList_ctl02_ThumbNailImage" title="">
+							</li>
+
+							<li name="2" style="float: left; cursor: pointer;">
+								<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Th_wid/En/0044_ETS_10-7_Config-Compare_Th_wid_EN.jpg" id="ctl00_ContentPlaceHolder1_ThumbNailList_ctl03_ThumbNailImage" title="">
+							</li>
+
+							<li name="3" style="float: left; cursor: pointer;">
+								<img src="<%= RootCreativeImagePath %>screenshots/products/ETS/Th_wid/En/0041_ETS_10-7_Config-Downloader_Th_wid_EN.jpg" id="ctl00_ContentPlaceHolder1_ThumbNailList_ctl04_ThumbNailImage" title="">
+							</li>
+
+						</ul>
+					</div>
+					<div style="clear: both;"></div>
+					<div name="product1" class="clicktoenlarge">
+						<div class="gallery">
+							<a href="#" onclick="return false;"><span id="ctl00_ContentPlaceHolder1_ClickForLargeImage"> Click for larger images</span> <span class="hacklink" style="display: none;"> <img src="http://web.swcdn.net:80/v6.8/web/images/2012q1/solutionfinder/btn_clicktoenlarge-overlay.png"> </span></a>
+						</div>
+					</div>
+				</div><!-- p-product-screeshots-->
+			</div>
+		</div><!-- p_persistentContent -->
+	</div>
+	<!-- end of p_persisten_container -->
+	<!-- End Of Persistent Block -->
+
+	<div class="p_twoColumns p_wrapper">
+		<div id="p_mainContent" class="p_leftCol">
+			<div class="research">
+				<strong>Still doing research? </strong>
+				<a target="_blank" href="/onlinequotes/#/onlinequote?productcode=113
+				">Get Online Quote</a><strong> Or... </strong><a href="http://shopping.netsuite.com/s.nl/c.638609/n.7/sc.105/category.26406/.f">Skip Trial &amp; Buy Now</a>
+			</div>
+
+			<!-- Guided Tour Block -->
+			<div id="guided_tour">
+				<div class="guided_tour_desc">
+					<h4>Guided Tour</h4>
+					<p>
+						guided tour text
+					</p>
+					<img class="sprite-etBImages-arrow-orange" src="http://web.swcdn.net/web/images/transparent.gif" style="position: absolute; bottom: 0; right: 0; top: 250px;">
+				</div>
+				<div class="guided_tour_video">
+					<div class="p_videoThumnail">
+						<div class="video">
+							<a href="javascript:bcl.addplayer(0);" class="video_link"> <div class="video_link_icon"></div> <img src="<%= RootCreativeImagePath %>products/wpmB/images/video-wpm.jpg" alt="Video frame"> </a>
+						</div>
+					</div><!-- p_videoThumnail -->
+				</div>
+			</div>
+			<!-- end of guided tour -->
+			<!-- End Of Guided Tour Block -->
+
+			<div class="cBtnDownloadContainer btnDownloadSection">
+				<a class="cBtnDownload" href="/register/index.aspx?Program=428&amp;c=70150000000D8FL" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+				<span class="cBtnDescription">Fully Functional For 30 Days</span>
+			</div>
+			
+			
+			
+			
+	<div id="p_whatUsersSay" class="p_section_wrapper">
+        <h3>What ET users say about it...</h3>
+        <p class="p_main_quote">ET quote</p>
+		<p class="p_main_quote_source">ET quote</p>
+      </div>
+			   <!-- p_commets -->
+		
+			<!-- Product Blurb -->
+			<div class="p_award_winning">
+				<h3>Network Troubleshooting Made Easy with SolarWinds Engineer's Toolset</h3>
+				<p>
+					We’re network engineers just like you, so we know the type of issues you face every day. Our goal is to make sure you have the right tools to easily and effectively troubleshoot your network – all in one complete and affordable package. Once you’ve experienced Engineer’s Toolset, you’ll never troubleshoot your network the same way again!  
+				</p>
+			</div>
+			<!-- End Of Product Blurb -->
+
+			<!-- Top 4 Engineer’s Toolsets -->
+	<div  class="p_section_wrapper">
+				<ul class="p_tools_tabs">
+				
+					<li id="toolkitadmin" class="p_tool expanded">
+						<div class="p_tools_title">Toolkit Administrator<div class="p_tool_tab_arrow"></div></div>
+						<ul class="p_tools_content">
+						
+							<li class="p_tools_feature">
+								<div class="p_tool_feature_image">
+									<img index="0" name="0" src="<%= RootCreativeImagePath %>screenshots/products/ETS/Sm/En/0001_ETS_10-7_Toolset-Launchpad_Sm_EN.jpg" class="lnkEnlarge" alt="Toolset Launchpad">
+									<span class="p_image_large">Click for larger images</span>
+								</div><!-- end of Feature Image -->
+								<div class="p_tool_feature_description">
+									<p class="p_tool_feature_title">Toolset Launchpad</p>
+									<p>SolarWinds Engineer’s Toolset includes a Toolset Launchpad that enables you to immediately access all networking tools and customize groupings so that you can quickly access your favorites.</p>
+									<a href="/engineers-toolset/toolset-launchpad.aspx#gotabs">Learn More »</a>
+								</div><!-- End Feature Description -->
+							</li><!-- end of feature content -->
+							
+							<li class="p_tools_feature">
+								<div class="p_tool_feature_image">
+									<img index="1" src="<%= RootCreativeImagePath %>screenshots/products/ETS/sm/En/wss_Sm_EN.png" class="lnkEnlarge" alt="Workspace Studio">
+									<span class="p_image_large">Click for larger images</span>
+								</div><!-- end of Feature Image -->
+								<div class="p_tool_feature_description">
+									<p class="p_tool_feature_title">Workspace Studio</p>
+									<p>SolarWinds Engineer’s Toolset includes an innovative Workspace Studio that allows you to implement tabbed views displaying a wide range of your vital network statistics.</p>
+									<a href="/engineers-toolset/workspace-studio.aspx#gotabs">Learn More »</a>
+								</div><!-- End Feature Description -->
+							</li><!-- end of feature content -->
+							
+							
+						</ul>
+					</li>
+					
+					<!-- End of Tool -->
+					
+					
+					<li id="configMan" class="p_tool">
+						<div class="p_tools_title">Configuration Management<div class="p_tool_tab_arrow"></div></div>
+						<ul class="p_tools_content">
+						
+							<li class="p_tools_feature">
+								<div class="p_tool_feature_image">
+									<img index="0" name="screenshot292057776088" src="<%= RootCreativeImagePath %>screenshots/products/ETS/Sm/En/0044_ETS_10-7_Config-Compare_Sm_EN.jpg" class="lnkEnlarge" alt="Config Compare">
+									<span class="p_image_large">Click for larger images</span>
+								</div><!-- end of Feature Image -->
+								<div class="p_tool_feature_description">
+									<p class="p_tool_feature_title">Config Compare</p>
+									<p>SolarWinds Engineer’s Toolset includes a Config Compare utility that compares the running config of a Cisco® router with the startup config.</p>
+									<a href="/engineers-toolset/config-compare.aspx#gotabs">Learn More »</a>
+								</div><!-- End Feature Description -->
+							</li><!-- end of feature content -->
+							
+							<li class="p_tools_feature">
+								<div class="p_tool_feature_image">
+									<img index="1" name="screenshot292057776088" src="<%= RootCreativeImagePath %>screenshots/products/ETS/Sm/En/0041_ETS_10-7_Config-Downloader_Sm_EN.jpg" class="lnkEnlarge" alt="Config Downloader">
+									<span class="p_image_large">Click for larger images</span>
+								</div><!-- end of Feature Image -->
+								<div class="p_tool_feature_description">
+									<p class="p_tool_feature_title">Config Downloader</p>
+									<p>SolarWinds Engineer’s Toolset incleds a Config Downloader that enables you to download device configuration files from a Cisco® CMTS or network router to a remote PC.</p>
+									<a href="/engineers-toolset/config-downloader.aspx#gotabs">Learn More »</a>
+								</div><!-- End Feature Description -->
+							</li><!-- end of feature content -->
+							
+							<li class="p_tools_feature">
+								<div class="p_tool_feature_image">
+									<img index="1" name="screenshot292057776088" src="<%= RootCreativeImagePath %>/screenshots/products/ETS/Sm/En/0042_ETS_10-7_Config-Viewer_Sm_EN.jpg" class="lnkEnlarge" alt="Config Downloader">
+									<span class="p_image_large">Click for larger images</span>
+								</div><!-- end of Feature Image -->
+								<div class="p_tool_feature_description">
+									<p class="p_tool_feature_title">Config Editor/Viewer</p>
+									<p>SolarWinds Engineer’s Toolset includes a Config Editor/Viewer that extracts Cisco® router running network configurations and automatically archives them for future reference.</p>
+									<a href="/engineers-toolset/config-downloader.aspx#gotabs">Learn More »</a>
+								</div><!-- End Feature Description -->
+							</li><!-- end of feature content -->
+						
+							
+						</ul>
+					</li>
+					
+					<!-- End of Tool -->
+				</ul>
+			</div>
+			<!-- end of Engineer’s Toolsets -->
+			<!-- End of Top 5 Features -->
+
+			<!-- Blue Box Shadow -->
+			<div class="blue-box-shadow">
+				<div class="blue-box-content">
+					<img class="sprite-etBImages-download-box-desc" src="http://web.swcdn.net/web/images/transparent.gif" >
+					<div class="cBtnDownloadContainer btnDownloadBB">
+						<a class="cBtnDownload" href="/register/index.aspx?Program=428&amp;c=70150000000D8FL" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+						<span class="cBtnDescription">Fully Functional For 30 Days</span>
+					</div>
+				</div>
+			</div>
+			<!-- End of Blue Box Shadow -->
+
+			<!-- System Requirements -->
+
+			<div id="p_systemRequirements" class="p_section">
+				<h3>System Requirements</h3>
+				<table>
+					<tbody>
+						<tr>
+							<td class="p_software">
+							<div class="p_icon">
+								<img class="sprite-etBImages-icons-sysreq-operatingsys" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+							</div>
+							<div class="p_info">
+								<p>
+									Operating System
+								</p>
+								<p class="point12">
+									Microsoft Windows 8, Windows 7, Vista Business and Ultimate Editions, XP SP3, Sever 2012, Server 2008 and R2, and Windows Server 2003 SP1 and R2. .Net Framework Version 3.5 SP1 or later.
+
+								</p>
+							</div></td>
+
+							<td class="p_hardware">
+							<div class="p_icon">
+								<img class="sprite-etBImages-icons-sysreq-cpu" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+							</div>
+							<div class="p_info">
+								<p>
+									CPU
+								</p>
+								<p>
+									500MHz
+								</p>
+							</div></td>
+						</tr>
+
+						<tr>
+							<td class="p_software">
+							<div class="p_icon">
+								<img class="sprite-etBImages-icons-sysreq-netframework" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+							</div>
+							<div class="p_info">
+								<p>
+									Other
+								</p>
+								<p class="point12">
+									Network card or modem required; sound card recommended, but not required.
+								</p>
+								<p class="point12"><strong>Browser:</strong></p>
+								<p>IE 8 and later.</p>
+								<p>FF 14 and later.</p>
+							</div></td>
+
+							<td class="p_hardware">
+							<div class="p_icon">
+								<img class="sprite-etBImages-icons-sysreq-memory" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+							</div>
+							<div class="p_info">
+								<p>
+									Memory
+								</p>
+								<p>
+									128MB
+								</p>
+							</div></td>
+						</tr>
+
+						<tr>
+							<td class="p_software">
+							</td>
+
+							<td class="p_hardware">
+							<div class="p_icon">
+								<img class="sprite-etBImages-icons-sysreq-harddrive" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+							</div>
+							<div class="p_info">
+								<p>
+									Hard Drive
+								</p>
+								<p>
+									At least 640MB
+								</p>
+							</div></td>
+						</tr>
+
+					</tbody>
+				</table>
+
+				<div class="p_note p_grayBox">
+					<p>
+						<strong>NOTE:</strong> The minimum server requirements listed assume default configuration. Significantly increasing the poll rate or statistic collection rate could result in additional load on the server, which may require a larger CPU or additional memory.
+					</p>
+				</div><!-- p_note -->
+			</div><!-- p_systemRequirements -->
+			<!-- End Of System Requirements -->
+
+
+			<!-- Blue Box Shadow -->
+			<div class="blue-box-shadow">
+				<div class="blue-box-content">
+					<img class="sprite-etBImages-download-box-desc" src="http://web.swcdn.net/web/images/transparent.gif" >
+					<div class="cBtnDownloadContainer btnDownloadBB">
+						<a class="cBtnDownload" href="/register/index.aspx?Program=428&amp;c=70150000000D8FL" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+						<span class="cBtnDescription">Fully Functional For 30 Days</span>
+					</div>
+				</div>
+			</div>
+			<!-- End Of Blue Box Shadow -->
+
+			<!-- Resources Section -->
+
+			<div id="p_resources" class="p_section">
+
+				
+
+				<!-- Datasheet Section -->
+				<div class="p_resourcesType" id="datasheets">
+					<h4>Datasheets</h4>
+					<ul class="p_resourcesList">
+						<li>
+							<div class="p_resourceIcon">
+								<img class="sprite-etBImages-icons-resources-datasheets" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+								<a href="/resources/engineers-toolset/datasheets.aspx" target="_blank">View All »</a>
+							</div><!-- p_resourceIcon -->
+							<div class="p_resourceDesc">
+								<a target="_blank" href="http://web.swcdn.net/creative/pdf/datasheets/SW_ET_datasheet.pdf">Datasheet: Engineer's Toolset</a>
+								<p>
+									SolarWinds Engineer’s Toolset includes a collection of powerful network management tools that are easily accessed via an innovative Workspace Studio to quickly resolve issues right from your desktop. We’re network engineers just like you, so we know what you face everyday: new network issues that emerge from nowhere, never enough time to troubleshoot, and a highly complex network comprised of thousands of devices and a mind of its own.
+								</p>
+							</div><!-- p_resourceDesc -->
+						</li>
+					</ul><!-- p_resourcesList -->
+
+					<div class="p_backButton">
+						<a href="#p_persistent_container">↑ Back to Top</a>
+					</div>
+				</div><!-- p_resourcesType -->
+				<!-- End Of Datasheet Section -->
+
+				<!-- Videos Section -->
+				<div class="p_resourcesType" id="videos">
+					<h4>Videos</h4>
+					<ul class="p_resourcesList">
+
+						<li>
+							<div class="p_resourceIcon">
+								<img class="sprite-etBImages-icons-resources-videos" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+								<a href="/resources/engineers-toolset/videos.aspx" target="_blank">View All »</a>
+							</div><!-- p_resourceIcon -->
+							<div class="p_resourceDesc">
+								<a target="_blank" href="/Resources/Videos/Engineer-s-Toolset-Guided-Tour.html">Engineer's Toolset Guided Tour</a>
+								<p>
+									Get a guided tour of Engineer's Toolset from a SolarWinds sales engineer. Learn how Engineer's Toolset can help keep your network performing optimally and troubleshoot issues when there are problems.
+								</p>
+							</div><!-- p_resourceDesc -->
+						</li>
+
+						<li>
+							<div class="p_resourceIcon">
+								<img class="sprite-etBImages-icons-resources-videos" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+								<a href="/resources/engineers-toolset/videos.aspx" target="_blank">View All »</a>
+							</div><!-- p_resourceIcon -->
+							<div class="p_resourceDesc">
+								<a target="_blank" href="/Resources/Videos/US-Army-Relies-on-Engineers-Toolset.html">US Army Relies on Engineer's Toolset</a>
+								<p>
+									Hear how this long-time fan and network auditor for the US Army relies on Engineer's Toolset to perform network discovery, find virtual machines, see who's logged into the network, investigate router configs, test QoS and aid in his CCIE studies.
+								</p>
+							</div><!-- p_resourceDesc -->
+						</li>	
+						
+						<li>
+							<div class="p_resourceIcon">
+								<img class="sprite-etBImages-icons-resources-videos" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+								<a href="/resources/engineers-toolset/videos.aspx" target="_blank">View All »</a>
+							</div><!-- p_resourceIcon -->
+							<div class="p_resourceDesc">
+								<a target="_blank" href="/Resources/Videos/Network-Engineer-Troubleshoots-Performance.html">Network Engineer Troubleshoots Performance</a>
+								<p>
+								Network Engineer Troubleshoots Performance
+								Hear why this network engineer relies on our Engineer's Toolset to troubleshoot network issues. Plus, hear which of the must-have tools is his favorite and learn how he diagnosed a network slowdown resulting from router interface errors.
+								</p>
+							</div><!-- p_resourceDesc -->
+						</li>
+
+					</ul><!-- p_resourcesList -->
+					<div class="p_backButton">
+						<a href="#p_persistent_container">↑ Back to Top</a>
+					</div>
+				</div><!-- p_resourcesType -->
+				<!-- End Of Videos Section -->
+
+			
+				<!-- FAQ Section -->
+				<div class="p_resourcesType" id="faq">
+					<h4>Product FAQ</h4>
+					<ul class="p_resourcesList">
+						<li>
+							<div class="p_resourceIcon">
+								<img class="sprite-etBImages-icons-resources-faqs" src="http://web.swcdn.net/web/images/transparent.gif" alt="">
+							</div><!-- p_resourceIcon -->
+							<div class="p_resourceDesc">
+								<p class="p_question">
+									<span>Q:&nbsp;</span>
+									Can Engineer’s Toolset monitor NetFlow?
+								</p>
+								<p class="p_answer ">
+									<span>A:&nbsp;</span>
+									Yes, the NetFlow Real-time tool captures and analyzes Cisco® NetFlow 5 & 9, JFlow, AppFlow, and sflow data in real time to show you what kind of traffic is traveling through the network, where it's coming from, and where it's going. With the NetFlow Real-time tool, you can display inbound and outbound traffic separately for granular analysis and troubleshooting. You can even view the last 5 to 60 minutes of flow data broken out by applications, conversation, domains, endpoints, and protocols. That way you know exactly how your bandwidth is being used and by whom.  
+								</p>
+								
+							</div><!-- p_resourceDesc -->
+						</li>
+
+					</ul><!-- p_resourcesList -->
+					<div class="p_backButton">
+						<a href="#p_persistent_container">↑ Back to Top</a>
+					</div>
+				</div><!-- p_resourcesType -->
+				<!-- End Of FAQ Section -->
+
+			</div><!-- p_resources -->
+			<!-- End Of Resources Section -->
+
+			<!-- Blue Box Shadow -->
+
+			<div class="blue-box-shadow">
+				<div class="blue-box-content">
+					<img class="sprite-etBImages-download-box-desc" src="http://web.swcdn.net/web/images/transparent.gif" >
+					<div class="cBtnDownloadContainer btnDownloadBB">
+						<a class="cBtnDownload" href="/register/index.aspx?Program=428&amp;c=70150000000D8FL" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+						<span class="cBtnDescription">Fully Functional For 30 Days</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- End of Blue Box Shadow -->
+
+			<!-- Version History Section -->
+			<div id="p_versioHistory" class="p_section">
+				<div id="Version History" class="subTabsFeaturesItem subSection">
+					<h2 class="categoryTitle"> Version History</h2>
+
+					<div class="versionHistory">
+						<div class="knowVersion">
+							v<span>10.9</span>
+						</div>
+						<div class="knowVersionDesc defaultStyles">
+							<div>
+								Toolset Launch Pad, improved functionality and support.
+							</div>
+							<div class="knowVersionMoreDesc">
+								
+								<ul>
+									<li>
+										Added the Engineer Toolset Launch Pad providing search style interface to find and launch any of the included tools
+									</li>
+									<li>
+										Added the ability for users to group tools into custom folders for quick access
+									</li>
+									<li>
+										Added support for Juniper Devices and more Cisco Operation Systems
+									</li>
+									<li>
+										Added the ability to import other third-party tools into the Engineer’s Toolset Launch Pad
+									</li>
+								</ul>	
+							</div>
+							<div style="display: none" class="wanttoReadMore">
+								- Read Less
+							</div>
+							<div class="wanttoReadMore">
+								+ Read More
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+					<div class="versionHistory">
+						<div class="knowVersion">
+							v<span>10.9</span>
+						</div>
+						<div class="knowVersionDesc defaultStyles">
+							<div>
+								In 10.8, we added improved functionality, security, and updates to some of our most popular tools.
+							</div>
+							<div class="knowVersionMoreDesc">
+								<p><strong>TFTP Server:</strong></p>
+								<ul>
+									<li>
+										TFTP Server now fully supports IPv6. Additionally, the tool now supports a timeout value, ensuring file transfer issues do not compromise network performance. This tool is also being released as a separate free tool in a localized Japanese version, so look for that soon!
+									</li>
+								</ul>
+								<p><strong>Switch Port Mapper</strong></p>
+								<ul>
+									<li>
+										Now supports ipNetToPhysical table.
+									</li>
+									<li>
+										Last Status Change field now shows the time the interface went down.
+									</li>
+								</ul>	
+								<p><strong>Syslog Server</strong></p>
+								<ul>
+									<li>
+										Can now change the database location in Syslog Server.
+									</li>
+								</ul>
+								<p><strong>Port Scanner</strong></p>
+								<ul>
+									<li>
+										Port scanner now allows custom IP ranges as input.
+									</li>
+								</ul>
+								
+								<p><strong>SPAM Blacklists</strong></p>
+								<ul>
+									<li>
+										Completely updated.
+									</li>
+								</ul>
+								
+								<p><strong>SNMP Realtime Graph</strong></p>
+								<ul>
+									<li>
+										Added support for SNMPv3 and IPv6.
+									</li>
+								</ul>
+								
+								<p><strong>Router CPU Load</strong></p>
+								<ul>
+									<li>
+										Added support for SNMPv3 and IPv6.
+									</li>
+								</ul>
+								
+								<p><strong>Advanced Subnet Calculator</strong></p>
+								<ul>
+									<li>
+										Added IPv6 support.
+									</li>
+								</ul>
+								
+								<p><strong>DHCP Scope Monitor</strong></p>
+								<ul>
+									<li>
+										Added SNMPv3 support.
+									</li>
+								</ul>
+								
+								<p><strong>Advanced CPU Load</strong></p>
+								<ul>
+									<li>
+										Added support for SNMPv3 and IPv6.
+									</li>
+								</ul>
+								
+								<p><strong>Other General Toolset Improvements</strong></p>
+								<ul>
+									<li>
+										Added AES 256 support to SNMPv3 credentials.
+									</li>
+									<li>
+										Increased support for SonicWall devices.
+									<li>Added credential migration options between Work space studio and classic tools.</li>
+									<li>Option to make the Y axis “fixed” in WorkSpace Studio charts.</li>
+									<li>You can now import devices into NPM from Network Sonar.</li>
+									</li>
+								</ul>	
+							</div>
+							<div style="display: none" class="wanttoReadMore">
+								- Read Less
+							</div>
+							<div class="wanttoReadMore">
+								+ Read More
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="p_backButton">
+						<a href="#p_persistent_container">↑ Back to Top</a>
+					</div>
+					<div class="seeReleaseNotes">
+						To see a complete version history for SolarWinds Web Performance Monitor, please visit our <a href="http://www.solarwinds.com/documentation/seum/docs/releasenotes/releasenotes.htm">release notes</a>.
+					</div>
+				</div>
+			</div><!-- p_versioHistory -->
+			<!-- End Of Version History Section -->
+
+			<!-- Tips and Training Section -->
+
+			<div id="p_tipsTraining" class="p_section">
+
+				<div id="Tips and Training" class="subTabsFeaturesItem subSection">
+					<h2 class="categoryTitle"> Tips and Training</h2>
+
+					<div class="trainingSubTab">
+						<div class="trainingIcon">
+							<img class="sprite-etBImages-icons-resources-training" src="http://web.swcdn.net/web/images/transparent.gif" alt="Tips and Training">
+						</div>
+						<div class="trainingMaterial">
+							<p>
+								Engineer's Toolset Guided Tour
+							</p>
+							<a target="_blank" href="/Resources/Videos/Engineer-s-Toolset-Guided-Tour.html">Watch the video</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="trainingSubTab">
+						<div class="trainingIcon">
+							<img class="sprite-etBImages-icons-resources-training" src="http://web.swcdn.net/web/images/transparent.gif" alt="Tips and Training">
+						</div>
+						<div class="trainingMaterial">
+							<p>
+								US Army Network Auditor Relies on Toolset
+							</p>
+							<a target="_blank" href="/Resources/Videos/US-Army-Relies-on-Engineers-Toolset.html">Watch the video</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>					<div class="trainingSubTab">
+					<div class="trainingIcon">
+							<img class="sprite-etBImages-icons-resources-training" src="http://web.swcdn.net/web/images/transparent.gif" alt="Tips and Training">
+						</div>
+						<div class="trainingMaterial">
+							<p>
+								Veteran Engineer Uses Toolset to Troubleshoot
+							</p>
+							<a target="_blank" href="/Resources/Videos/Network-Engineer-Troubleshoots-Performance.html">Watch the video</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="p_backButton">
+						<a href="#p_persistent_container">↑ Back to Top</a>
+					</div>
+				</div>
+
+			</div><!-- p_tipsTraining -->
+			<!-- End Of Tips and Training Section -->
+
+		</div><!-- p_mainContent -->
+
+		<!-- Side Bar Section -->
+
+		<div id="p_sideBar" class="p_rightCol">
+			<div id="p_navigation">
+				<img src="http://web.swcdn.net/web/images/transparent.gif" class="what-more sprite-etBImages-what-find">
+				<div class="shadow">
+					<ul>
+						<li>
+							<a href="#guided_tour">Guided Tour</a>
+						</li>
+						<li>
+							<a href="#p_top">Top 4 ET Features</a>
+						</li>
+						<li>
+							<a href="#p_systemrequirements">System Requirements</a>
+						</li>
+						<li>
+							<a href="#must_have">Must-Have Features</a>
+						</li>
+						<li>
+							<a href="#demos">Demos</a>
+						</li>
+						<li>
+							<a href="#datasheets">Datasheets</a>
+						</li>
+						<li>
+							<a href="#videos">Videos &amp; Webcasts</a>
+						</li>
+						<li>
+							<a href="#faq">FAQs</a>
+						</li>
+						<li>
+							<a href="#p_extensions">Extensions</a>
+						</li>
+						<li>
+							<a href="#tips and training">Tips &amp; Training</a>
+						</li>
+					</ul>
+				</div>
+			</div><!-- p_navigation -->
+
+			<!-- Awards and Props Section -->
+			<div id="p_awardsProps" class="p_section p_withTitle">
+				<div class="title">
+					Awards &amp; Props
+				</div>
+				<div class="content">
+					<p>
+						We are known for our award-winning solutions, and we continue to strive for excellence with applications designed by IT pros, for IT pros.
+					</p>
+					<ul>
+						<li><img class="sprite-etBImages-awards-1" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+						<li><img class="sprite-etBImages-awards-2" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+						<li><img class="sprite-etBImages-awards-3" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+						<li><img class="sprite-etBImages-awards-4" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- p_awardsProps -->
+			<!-- End Of Awards and Props Section -->
+
+			<!-- Customer Section -->
+			<div id="p_customers" class="p_section p_withTitle">
+				<div class="title">
+					Some of the companies that rely on us
+				</div>
+				<div class="content">
+					<p>
+						Solarwinds is trusted by Fortune 500 companies, &amp; small businesses alike.
+					</p>
+					<ul>
+						<li><img class="sprite-etBImages-logos-1" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+						<li><img class="sprite-etBImages-logos-2" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+						<li><img class="sprite-etBImages-logos-3" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+						<li><img class="sprite-etBImages-logos-4" src="http://web.swcdn.net/web/images/transparent.gif" alt="awards">
+						</li>
+					</ul>
+				</div>
+			</div><!-- p_customers -->
+			<!-- End Of Customer Section -->
+
+			<!-- Sticky Box section -->
+
+			<div id="stickyBox" style="position: inherit; left: 0px; top: 0px;">
+				<div  class="p_section p_withTitle">
+					<div class="title">
+						Download and monitor Web performance within an hour
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								Your software is <strong>100% functional</strong> for 30 days. No obligations.
+							</li>
+							<li>
+								Easy, all-in-one tool for third-party performance monitoring.
+							</li>
+							<li>
+								Get <strong>out-of-the-box</strong> dashboards, alerts, reports and more!
+							</li>
+						</ul>
+						<div class="stBtnDownloadContainer">
+							<a class="stBtnDownload" href="/register/registrationb.aspx?program=1577&amp;c=70150000000PBDr" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+							<span class="cBtnDescription">Fully Functional For 30 Days</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- End Of Sticky Box section -->
+
+		</div><!-- p_sideBar -->
+	</div><!-- p_twoColumns -->
+</div><!-- p_wrapper -->
+
+
+<script src="<%=RootJsPath%>jQuery/jquery-1.6.4.min.js" ></script>
+<script type="text/javascript">head.js("http://localhost:800/solarhttp/et.js");</script>
+<script type="text/javascript">head.js("http://localhost:800/solarhttp/widget/ssw.js");</script>
+<script  type="text/javascript" src="<%=RootCreativeImagePath %>landing_pages/utilities/js/sticky.min.js"></script>
+<!--video modal box script-->
+<script  type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script  type="text/javascript" src="http://admin.brightcove.com/js/APIModules_all.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+	$(".p_tool.expanded").children('.p_tools_content').slideDown('fast');
+	
+	$(".p_tools_title").click(function(){
+		var parent = $(this).parent();
+		if( parent.attr('class') == "p_tool expanded"){
+			$(this).siblings('.p_tools_content').slideUp('fast', function(){
+				parent.removeClass('expanded');
+			});
+		}else{
+			$(this).siblings('.p_tools_content').slideDown('fast', function(){
+				parent.addClass('expanded');
+			});
+		}
+	});
+});
+
+</script>
+<script type="text/javascript">
+
+	var BCL = {};
+
+	BCL.playerData = {
+		"playerID" : "1161665466001",
+		"playerKey" : "AQ~~,AAAAo6yHyCk~,Sxq_urni6y7kV1uEF8oV8eODDask6rD7",
+		"width" : "650",
+		"height" : "479",
+		"videoID" : "1939538168001",
+		"wmode" : "transparent"
+	};
+
+	BCL.videoData = [{
+		"videoID" : "1939538168001"
+	}];
+
+	BCL.playerTemplate = "<div style=\"display:none\"></div><object id=\"myExperience\" class=\"BrightcoveExperience\"><param name=\"bgcolor\" value=\"#64AAB2\" /><param name=\"width\" value=\"{{width}}\" /><param name=\"height\" value=\"{{height}}\" /><param name=\"playerID\" value=\"{{playerID}}\" /><param name=\"playerKey\" value=\"{{playerKey}}\" /><param name=\"isVid\" value=\"true\" /><param name=\"isUI\" value=\"true\" /><param name=\"dynamicStreaming\" value=\"true\" /><param name=\"@videoPlayer\" value=\"{{videoID}}\"; /><param name=\"templateLoadHandler\" value=\"BCL.onTemplateLoaded\"><param name=\"wmode\" value=\"{{wmode}}\"><param name=\"autoStart\" value=\"true\"></object>";
+
+	BCL.addPlayer = function(i) {
+		BCL.playerData.videoID = BCL.videoData[i].videoID;
+		var playerHTML = "";
+		playerHTML = BCL.markup(BCL.playerTemplate, BCL.playerData);
+		document.getElementById("videoPlayer").innerHTML = playerHTML;
+		brightcove.createExperiences();
+
+		document.getElementById("ModalBoxWrap").style.display = 'block';
+	}
+
+	BCL.removePlayer = function() {
+		document.getElementById('ModalBoxWrap').style.display = 'none';
+
+		document.getElementById("videoPlayer").innerHTML = "";
+	};
+
+	BCL.markup = function(html, data) {
+		var m;
+		var i = 0;
+		var match = html.match( data instanceof Array ? /{{\d+}}/g : /{{\w+}}/g) || [];
+
+		while ( m = match[i++]) {
+			html = html.replace(m, data[m.substr(2, m.length - 4)]);
+		}
+
+		return html;
+	};
+
+	$(document).ready(function() {
+		$('.ModalBoxOverlay').click(function() {
+			BCL.removePlayer();
+		});
+stickyMojo('#stickyBox', '.wrapperFooter', '#p_mainContent');
+	});
+
+</script>
+
+<div id="ModalBoxWrap" style="display: none;">
+	<div class="ModalBoxOverlay">
+		&nbsp;
+	</div>
+	<div class="vertical-offset">
+		<div class="ModalBox">
+			<div class="closeVideoPlayer">
+				<a href="javascript:bcl.removeplayer();" class="close">X</a>
+			</div>
+			<div id="videoPlayer"></div>
+			<div class="loading">
+				<span>Loading..</span>
+			</div>
+
+			<div class="cBtnDownloadContainer">
+				<a class="cBtnDownload" href="/register/index.aspx?Program=428&amp;c=70150000000D8FL" name="&amp;lid=Ovr_Top_Download_Now">Download Free Trial</a>
+				<span class="cBtnDescription">Fully Functional For 30 Days</span>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="back_container">
+	<a href="#" class="back_button">Back to Top</a>
+</div>
+<script type="text/javascript" src="http://web.swcdn.net/v7.5/web/js/onlineQuote/calculator/LicenseCalculator.min.js"></script>
+<script type="text/javascript">
+	setTimeout(function() {
+		var a = document.createElement("script");
+		var b = document.getElementsByTagName("script")[0];
+		a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/4683.js?" + Math.floor(new Date().getTime() / 3600000);
+		a.async = true;
+		a.type = "text/javascript";
+		b.parentNode.insertBefore(a, b)
+	}, 1); 
+</script>
