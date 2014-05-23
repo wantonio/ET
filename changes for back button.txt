@@ -1,0 +1,34 @@
+a.back-sticky-button{
+	background-color: #f0f0f0;
+	width: 130px;
+	height: 31px;
+	margin: 25px auto;
+	border: 1px solid #DDD;
+	border-radius: 5PX;
+	text-align: center;
+	padding: 9px 0 0 0;
+	color: #359ac0;
+	font-weight: bold;
+	font-size:16px;
+	display:block;
+	cursor:pointer;
+	text-decoration:none;
+	position:relative;
+}
+.close-bk-button{
+	position: absolute;
+	right: 5px;	
+	top: 5px;
+	width: 12px;
+}
+
+#stickyBox .p_section .title strong{
+	font-weight: 600;
+  }
+
+
+
+<a href="#p_persistent_container" class="back-sticky-button">
+	<img src="<%=RootCreativeImagePath %>products/cloase-x-icon.png" class="close-bk-button" />
+	Back to top
+</a>
