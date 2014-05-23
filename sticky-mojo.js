@@ -94,7 +94,7 @@
 
         function setLimitedSidebar(diff) {
             sticky.el.css({
-                top: diff-55,
+                top: diff-85,
             });
         }
 
@@ -137,3 +137,9 @@
             }
         }
     }
+// back button in sticky box
+window.onload = function() { 
+	$(".close-bk-button").click(function(){
+		$(this).parent().hide();
+	});
+}
