@@ -1,115 +1,6 @@
 <link rel="stylesheet" href="<%= RootCreativeImagePath %>products/etB/etB.min.css" type="text/css" />
 <link rel="stylesheet" href="http://localhost:800/solarhttp/widget/ssWidgetStyle.css" type="text/css" />
-	<style>
-		#p_sideBar .prod_integration .title img{margin-right: 10px;}
-		#p_sideBar .prod_integration .content p{font-size: 13px;}
-		#p_sideBar .prod_integration .content p a{font: inherit;}
-		#p_sideBar .prod_integration .content .content_title{font-size: 15px;padding-top: 15px;}
-		.p_tools_tabs{
-			overflow:hidden;
-			margin-top:15px;
-		}
-		
-		.p_award_winning{
-			background: url('http://content.solarwinds.com/creative/images/landing_pages/new-product-demo/images/section-bk.png') no-repeat center top;
-		}
-		
-		.p_tool .p_tools_title{
-			margin:10px 0;
-			width: auto;
-			font: 20px 'OpenSansLight',sans-serif;
-			color: #404040;
-			cursor:pointer;
-			position:relative
-		}
-		
-		.p_tool .p_tools_title:hover{
-			color:#f99d1c;
-		}
-		
-		.p_tool .p_tools_title .p_tool_tab_arrow{
-			position:absolute;
-			width:30px;
-			height:30px;
-			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat -5% 15%;
-			top: 0px;
-			right: 10px;
-		}
-		
-		.p_tool .p_tools_title:hover .p_tool_tab_arrow{
-			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat 73% 15%;
-		}
-		
-		.p_tool.expanded .p_tools_title .p_tool_tab_arrow{
-			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat 4% 100%!important;
-		}	
-		
-		.p_tool.expanded .p_tools_title:hover .p_tool_tab_arrow{
-			background: url('http://dev1.content.solarwinds.com/creative/images/products/etb/images/tools_tab_arrows.png') no-repeat 85% 100%!important;
-		}
-		
-		.p_tool .p_tools_content{
-			display:none;
-		}
-		
-		.p_tool.expanded {
-			border-top:1px solid #fff;
-			background: url('http://content.solarwinds.com/creative/images/landing_pages/new-product-demo/images/section-bk.png') no-repeat center top;
-		}
-		
-		.p_tool{
-			padding:15px 0;
-			border-top:1px solid #ddd;
-		}
-		
-		.p_tools_feature .p_tool_feature_image img{
-			width:180px;
-		}	
-		
-		.p_tools_feature{
-			overflow:hidden;
-			clear:both;
-			padding:10px 0 20px 0;
-		}
-		
-		.p_tools_feature .p_tool_feature_image{
-			width:180px;
-			float:left;
-		}
-		
-		.p_tools_feature .p_tool_feature_image .p_image_large{
-			font-size:12px;
-			color: #359ac0;
-			cursor:pointer;
-			text-align:center;
-			border-bottom: 1px dashed #DDD;
-			width: 135px;
-			display: block;
-			margin: 10px auto 0 auto;
-		}
-		
-		.p_tools_feature .p_tool_feature_image img{	
-			border:1px solid #666;
-		}
-		
-		.p_tools_feature .p_tool_feature_description{
-			width:398px;
-			float:left;
-			padding: 0 0 0 15px;
-		}
-
-		.p_tools_feature .p_tool_feature_description a{
-			font-size:12px;
-		}
-		
-		#p_main_container  .p_tools_feature .p_tool_feature_description p.p_tool_feature_title{
-			padding:0 0 5px 0;
-			font-size:15px;
-			font-weight:bold;
-		}
 	
-		
-	</style>
 <script type="text/javascript" language="javascript" src="<%=RootJsPath%>headjs/head.min.js"></script>
 
 <div id="p_main_container">
@@ -1637,34 +1528,13 @@
 
 
 <script src="<%=RootJsPath%>jQuery/jquery-1.6.4.min.js" ></script>
-<script type="text/javascript">head.js("http://localhost:800/solarhttp/et.js");</script>
-<script type="text/javascript">head.js("http://localhost:800/solarhttp/widget/ssw.js");</script>
+<script type="text/javascript">head.js("<%= RootCreativeImagePath %>products/etB/js/etBScript.js");</script>
 <script  type="text/javascript" src="<%=RootCreativeImagePath %>landing_pages/utilities/js/sticky.min.js"></script>
 <!--video modal box script-->
 <script  type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 <script  type="text/javascript" src="http://admin.brightcove.com/js/APIModules_all.js"></script>
 
-<script>
 
-$(document).ready(function(){
-
-	$(".p_tool.expanded").children('.p_tools_content').slideDown('fast');
-	
-	$(".p_tools_title").click(function(){
-		var parent = $(this).parent();
-		if( parent.attr('class') == "p_tool expanded"){
-			$(this).siblings('.p_tools_content').slideUp('fast', function(){
-				parent.removeClass('expanded');
-			});
-		}else{
-			$(this).siblings('.p_tools_content').slideDown('fast', function(){
-				parent.addClass('expanded');
-			});
-		}
-	});
-});
-
-</script>
 <script type="text/javascript">
 
 	var BCL = {};

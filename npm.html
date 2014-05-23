@@ -1,13 +1,7 @@
 <link rel='stylesheet' type='text/css' href='<%=RootCreativeImagePath %>landing_pages/new-product-demo/css/npmC-new.min.css' />
 <link rel='stylesheet' type='text/css' href='<%=RootCreativeImagePath %>npmCImages.min.css' />
-<style>
-#p_main_container .p_award_winning h1{
-    padding: 32px 0 22px;
-    font: 24px 'OpenSansLight',sans-serif;
-    color: #404040;
-}
-</style>
 <script type="text/javascript" language="javascript" src="<%=RootJsPath%>headjs/head.min.js"></script>
+
 <div id="p_main_container">
   <ul class="p_breadcrums p_wrapper">
     <li>
@@ -1465,7 +1459,7 @@
       <!-- p_versioHistory -->
       
       <div id="p_tipsTraining" class="p_section">
-        <div id="Tips and Training" class="subTabsFeaturesItem subSection">
+        <div id="tips and training" class="subTabsFeaturesItem subSection">
           <h2 class="categoryTitle"> Tips and Training</h2>
           <div class="trainingSubTab">
             <div class="trainingIcon"> <img class="sprite-npmCImages-icons-resources-training" src="http://web.swcdn.net/web/images/transparent.gif" alt="Tips and Training"> </div>
@@ -1505,7 +1499,7 @@
             <li><a href="#faq">FAQs</a></li>
             <li><a href="#productguides">Product Guides</a></li>
             <li><a href="#p_extensions">Extensions</a></li>
-            <li><a href="#Tips and Training">Tips &amp; Training</a></li>
+            <li><a href="#tips and training">Tips &amp; Training</a></li>
           </ul>
         </div>
       </div>
@@ -1545,24 +1539,26 @@
         </div>
       </div>
       <!-- p_customers -->
+	  
+	
       <div id="stickyBox" style="position: inherit; left: 0px; top: 0px;">
         <div  class="p_section p_withTitle">
-          <div class="title">Download now and start discovering your network within an hour</div>
+          <div class="title">Download <strong>Network Performance Monitor</strong> now and start discovering your network within an hour</div>
           <div class="content">
             <ul>
-              <li>Your software is <strong>100% functional</strong> for 30 days. No obligations</li>
+              <li>Your software is <strong>100% functional</strong> for 30 days.<br/> No obligation.</li>
               <li><strong>Deploy in no time:</strong> Automatic network discovery and mapping.</li>
               <li>Get <strong>out-of-the-box</strong> dashboards, alerts, reports and more!</li>
             </ul>
             <div class="stBtnDownloadContainer"> <a class="stBtnDownload" href="/register/registrationb.aspx?program=607&amp;c=70150000000Dlbw" name="&amp;lid=Ovr_Top_Download_Now"> Download Free Trial </a> <span class="cBtnDescription">Fully Functional For 30 Days</span> </div>
           </div>
         </div>
-		
-		<a href="#p_persistent_container" class="back-sticky-button">
-			<img class="close-bk-button" />
-			Back to top
-		</a>
-		
+		<div class="back-sticky-button-container">
+			<a href="#p_persistent_container" class="back-sticky-button">
+				Back to top
+			</a>
+			<img src="<%=RootCreativeImagePath %>products/cloase-x-icon.png" class="close-bk-button" />
+		</div>
 		
       </div>
     </div>
@@ -1665,7 +1661,6 @@
 </div>
 <script type="text/javascript">head.js("<%=RootCreativeImagePath %>landing_pages/new-product-demo/js/npmC.min.js");</script>
 <script  type="text/javascript" src="<%=RootCreativeImagePath %>landing_pages/utilities/js/sticky-mojo.js"></script> 
-
 <!--video modal box script--> 
 <script  type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script> 
 <script  type="text/javascript" src="http://admin.brightcove.com/js/APIModules_all.js">
