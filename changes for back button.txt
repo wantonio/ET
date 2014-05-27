@@ -13,13 +13,15 @@ a.back-sticky-button{
 	display:block;
 	cursor:pointer;
 	text-decoration:none;
+}	
+.back-sticky-button-container{
 	position:relative;
 }
 .close-bk-button{
 	position: absolute;
-	right: 5px;	
-	top: 5px;
-	width: 12px;
+	top: 4px;
+	right: 58px;
+	width: 13px;
 }
 
 #stickyBox .p_section .title strong{
@@ -28,7 +30,9 @@ a.back-sticky-button{
 
 
 
-<a href="#p_persistent_container" class="back-sticky-button">
-	<img src="<%=RootCreativeImagePath %>products/cloase-x-icon.png" class="close-bk-button" />
-	Back to top
-</a>
+<div class="back-sticky-button-container">
+			<a href="#p_persistent_container" class="back-sticky-button">
+				Back to top
+			</a>
+			<img src="<%=RootCreativeImagePath %>products/cloase-x-icon.png" class="close-bk-button">
+		</div>
