@@ -1,6 +1,12 @@
 <link rel="stylesheet" href="<%= RootCreativeImagePath %>products/etB/etB.min.css" type="text/css" />
 <link rel="stylesheet" href="http://localhost:800/solarhttp/widget/ssWidgetStyle.css" type="text/css" />
-	
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->	
 <script type="text/javascript" language="javascript" src="<%=RootJsPath%>headjs/head.min.js"></script>
 
 <div id="p_main_container">
@@ -175,32 +181,13 @@
 				</p>
 			</div>
 			<!-- End Of Product Blurb -->
-<style>
-
-.p_tool.expanded {
-backgroun-image:none!important;
-background: rgb(255,255,255); /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyOSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIzMSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(top,  rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(242,242,242,1) 99%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(29%,rgba(255,255,255,1)), color-stop(31%,rgba(255,255,255,1)), color-stop(99%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 29%,rgba(255,255,255,1) 31%,rgba(242,242,242,1) 99%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,1) 29%,rgba(255,255,255,1) 31%,rgba(242,242,242,1) 99%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,1) 29%,rgba(255,255,255,1) 31%,rgba(242,242,242,1) 99%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,1) 29%,rgba(255,255,255,1) 31%,rgba(242,242,242,1) 99%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-8 */
-
-
-
-}
-
-</style>
 			<!-- Top 4 Engineer’s Toolsets -->
 	<div  class="p_section_wrapper">
 				<ul class="p_tools_tabs">
 				
 					<li id="toolkitadmin" class="p_tool expanded">
 						<div class="p_tools_title">Toolkit Administrator<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">Toolkit Administrator</p>
 						<ul class="p_tools_content">
 
 						<li class='p_tools_feature'>
@@ -237,6 +224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="configMan" class="p_tool">
 						<div class="p_tools_title">Configuration Management<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">Manage network devices with specialized tools including Real-time NetFlow Analyzer, Config Downloader, and Config Compare.</p>
 						<ul class="p_tools_content">
 						
 						<li class='p_tools_feature'>
@@ -328,6 +316,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="diagnostics" class="p_tool">
 						<div class="p_tools_title">Diagnostics<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">Perform robust network diagnostics for troubleshooting and quickly reslove complex network issues with tools such as Ping Sweep, DNS Analyzer, and Trace Route.</p>
 						<ul class="p_tools_content">
 						
 						<li class='p_tools_feature'>
@@ -363,6 +352,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="GeOther" class="p_tool">
 						<div class="p_tools_title">General/Other<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">A collection of effective systems management tools including WAN Killer, Wake-on-LAN, WMI Browser, and more.</p>
 						<ul class="p_tools_content">
 						
 						<li class='p_tools_feature'>
@@ -440,6 +430,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="IPAM_DNS_DHCP" class="p_tool">
 						<div class="p_tools_title">IPAM/DNS/DHCP<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">Monitor IP addresses, DHCP scopes with easy-to-use tools such as IP Address Management, DHCP Scope Monitor, Advanced Subnet Calculator, and more.</p>
 						<ul class="p_tools_content">
 						
 						<li class='p_tools_feature'>
@@ -545,6 +536,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="logMan" class="p_tool">
 						<div class="p_tools_title">Log Management<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">Effective log management tools for creating, receiving, and logging SNMP traps including tools such as Syslog Server for syslog message collection and filtering.</p>
 						<ul class="p_tools_content">
 						
 						<li class='p_tools_feature'>
@@ -594,6 +586,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="netDis" class="p_tool">
 						<div class="p_tools_title">Network Discovery<div class="p_tool_tab_arrow"></div></div>
+						<p class="p_tool_description">Deploy an array of network discovery tools including Port Scanner, Switch Port Mapper, and Advanced Subnet Calculator.</p>
 						<ul class="p_tools_content">
 						
 						
@@ -714,6 +707,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="netMon" class="p_tool">
 						<div class="p_tools_title">Network Monitoring<div class="p_tool_tab_arrow"></div></div>
+						
+						<p class="p_tool_description">Monitor and alert in real time on network availability and health with tools including Real-Time Interface Monitor, SNMP Real-Time Graph, and Advanced CPU Load.</p>
 						<ul class="p_tools_content">
 						
 						
@@ -863,6 +858,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="security" class="p_tool">
 						<div class="p_tools_title">Security<div class="p_tool_tab_arrow"></div></div>
+						
+						<p class="p_tool_description">Ensure network security with handy tools including Router Password Decryption, SNMP Brute Force Attack, and SNMP Dictionary Attack.</p>
+						
 						<ul class="p_tools_content">
 						
 						
@@ -915,6 +913,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					
 					<li id="SNMP" class="p_tool">
 						<div class="p_tools_title">SNMP<div class="p_tool_tab_arrow"></div></div>
+						
+						<p class="p_tool_description">Quickly search and view MIB and OID data with tools such as MIB Viewer, MIB Walk, and SNMP MIB Browser.</p>
+						
 						<ul class="p_tools_content">
 						
 						
@@ -983,7 +984,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 			<!-- System Requirements -->
 
-			<div id="p_systemRequirements" class="p_section">
+			<div id="p_systemrequirements" class="p_section">
 				<h3>System Requirements</h3>
 				<table>
 					<tbody>
@@ -1073,7 +1074,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 						<strong>NOTE:</strong> The minimum server requirements listed assume default configuration. Significantly increasing the poll rate or statistic collection rate could result in additional load on the server, which may require a larger CPU or additional memory.
 					</p>
 				</div><!-- p_note -->
-			</div><!-- p_systemRequirements -->
+			</div><!-- p_systemrequirements -->
 			<!-- End Of System Requirements -->
 
 
@@ -1517,12 +1518,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			<div id="stickyBox" style="position: inherit; left: 0px; top: 0px;">
 				<div  class="p_section p_withTitle">
 					<div class="title">
-						Download and monitor Web performance within an hour
+						Download <strong>Engineer’s Toolset</strong> and monitor Web performance within an hour
 					</div>
 					<div class="content">
 						<ul>
 							<li>
-								Your software is <strong>100% functional</strong> for 30 days. No obligations.
+								Your software is <strong>100% functional</strong> for 30 days.<br/> No obligation.
 							</li>
 							<li>
 								Easy, all-in-one tool for third-party performance monitoring.
@@ -1537,6 +1538,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 						</div>
 					</div>
 				</div>
+				
+				<div class="back-sticky-button-container">
+			<a href="#p_persistent_container" class="back-sticky-button">
+				Back to top
+			</a>
+			<img src="<%=RootCreativeImagePath %>products/cloase-x-icon.png" class="close-bk-button">
+		</div>
 			</div>
 
 			<!-- End Of Sticky Box section -->

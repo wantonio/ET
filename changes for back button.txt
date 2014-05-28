@@ -29,10 +29,19 @@ a.back-sticky-button{
   }
 
 
-
 <div class="back-sticky-button-container">
 			<a href="#p_persistent_container" class="back-sticky-button">
 				Back to top
 			</a>
 			<img src="<%=RootCreativeImagePath %>products/cloase-x-icon.png" class="close-bk-button">
 		</div>
+		
+		
+#stickyBox .stBtnDownloadContainer .cBtnDescription {
+font-family: 'OpenSansLight',sans-serif;
+font-size: 15px;
+color: #404040;
+}
+
+
+p_systemRequirements
